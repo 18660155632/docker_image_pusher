@@ -6,3 +6,5 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 #busybox:1.28$1
 continuumio/anaconda3
+ubuntu:22.04
+ubuntu:20.04
