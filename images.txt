@@ -10,4 +10,7 @@
 #ubuntu:20.04
 #nvidia/cuda:12.4.1-runtime-ubuntu22.04
 #nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
-python:3.9-slim-bookworm
+#python:3.9-slim-bookworm
+jiashiwen/redissyncer-dashboard:v1.0
+jiashiwen/redissyncer-monitor:latest
+jiashiwen/redissyncer:latest
