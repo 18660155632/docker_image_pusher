@@ -17,4 +17,5 @@
 #docker.io/kubernetesui/dashboard-web:1.6.0
 #kong:3.6
 #centos:centos7
-mongo:6
+#mongo:6
+redis:6.2.6
