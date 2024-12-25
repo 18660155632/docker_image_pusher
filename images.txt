@@ -11,9 +11,10 @@
 #nvidia/cuda:12.4.1-runtime-ubuntu22.04
 #nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
 #python:3.9-slim-bookworm
-docker.io/kubernetesui/dashboard-api:1.10.1
-docker.io/kubernetesui/dashboard-auth:1.2.2
-docker.io/kubernetesui/dashboard-metrics-scraper:1.2.1
-docker.io/kubernetesui/dashboard-web:1.6.0
-kong:3.6
-centos:centos7
+#docker.io/kubernetesui/dashboard-api:1.10.1
+#docker.io/kubernetesui/dashboard-auth:1.2.2
+#docker.io/kubernetesui/dashboard-metrics-scraper:1.2.1
+#docker.io/kubernetesui/dashboard-web:1.6.0
+#kong:3.6
+#centos:centos7
+mongo:6
