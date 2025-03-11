@@ -25,4 +25,5 @@
 #intel/oneapi:latest
 #oven/bun:latest
 #golang:alpine
-calciumion/new-api:latest
+#calciumion/new-api:latest
+alpine
