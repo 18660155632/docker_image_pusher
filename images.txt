@@ -24,4 +24,5 @@
 #rancher/local-path-provisioner:v0.0.30
 #intel/oneapi:latest
 #oven/bun:latest
-golang:alpine
+#golang:alpine
+calciumion/new-api:latest
