@@ -26,4 +26,7 @@
 #oven/bun:latest
 #golang:alpine
 #calciumion/new-api:latest
-alpine
+#alpine
+jiashiwen/redissyncer-dashboard:v1.0
+jiashiwen/redissyncer-monitor:latest
+jiashiwen/redissyncer:latest
