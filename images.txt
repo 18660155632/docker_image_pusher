@@ -60,5 +60,6 @@
 #nats-streaming:0.22.1
 #busybox:1.28
 #docker/whalesay:latest
-docker.io/docker/whalesay:latest
+#docker.io/docker/whalesay:latest
+ubuntu:14.04
 
