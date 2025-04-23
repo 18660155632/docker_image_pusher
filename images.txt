@@ -38,7 +38,7 @@
 #downloads.unstructured.io/unstructured-io/unstructured-api:latest
 #ghcr.io/chroma-core/chroma:0.5.20
 #langgenius/dify-api:1.1.1
-langgenius/dify-plugin-daemon:0.0.6-local
+#langgenius/dify-plugin-daemon:0.0.6-local
 #langgenius/dify-sandbox:0.2.10
 #langgenius/dify-web:1.1.1
 #langgenius/qdrant:v1.7.3
@@ -57,4 +57,5 @@ langgenius/dify-plugin-daemon:0.0.6-local
 #semitechnologies/weaviate:1.19.0
 #tensorchord/pgvecto-rs:pg16-v0.3.0
 #ubuntu/squid:latest
+nats-streaming:0.22.1
 
