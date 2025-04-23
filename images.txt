@@ -57,6 +57,7 @@
 #semitechnologies/weaviate:1.19.0
 #tensorchord/pgvecto-rs:pg16-v0.3.0
 #ubuntu/squid:latest
-nats-streaming:0.22.1
-busybox:1.28
+#nats-streaming:0.22.1
+#busybox:1.28
+docker/whalesay:latest
 
