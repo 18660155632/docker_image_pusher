@@ -61,5 +61,7 @@
 #busybox:1.28
 #docker/whalesay:latest
 #docker.io/docker/whalesay:latest
-ubuntu:14.04
+#ubuntu:14.04
+docker.xuanyuan.me/guiji2025/heygem.ai-5090:latest
+docker.xuanyuan.me/guiji2025/heygem.ai:latest
 
