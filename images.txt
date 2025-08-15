@@ -64,6 +64,7 @@
 #ubuntu:14.04
 #docker.xuanyuan.me/guiji2025/heygem.ai-5090:latest
 #docker.xuanyuan.me/guiji2025/heygem.ai:latest
-rancher/rancher-agent:v2.10.3
-cluster-register
+#rancher/rancher-agent:v2.10.3
+#cluster-register
+apache/kafka:3.9.1
 
