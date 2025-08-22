@@ -66,5 +66,6 @@
 #docker.xuanyuan.me/guiji2025/heygem.ai:latest
 #rancher/rancher-agent:v2.10.3
 #cluster-register
---platform=linux/arm64 apache/kafka:3.9.1
+#--platform=linux/arm64 apache/kafka:3.9.1
+provectuslabs/kafka-ui
 
