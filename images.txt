@@ -67,5 +67,5 @@
 #rancher/rancher-agent:v2.10.3
 #cluster-register
 #--platform=linux/arm64 apache/kafka:3.9.1
-provectuslabs/kafka-ui
-
+#provectuslabs/kafka-ui
+--platform=linux/arm64 moby/buildkit:buildx-stable-1
