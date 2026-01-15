@@ -68,4 +68,8 @@
 #cluster-register
 #--platform=linux/arm64 apache/kafka:3.9.1
 #provectuslabs/kafka-ui
---platform=linux/arm64 moby/buildkit:buildx-stable-1
+#--platform=linux/arm64 moby/buildkit:buildx-stable-1
+
+python:3.11-slim
+node:20-alpine
+mysql:8.0
