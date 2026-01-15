@@ -70,7 +70,8 @@
 #provectuslabs/kafka-ui
 #--platform=linux/arm64 moby/buildkit:buildx-stable-1
 
---platform=linux/arm64 python:3.11-slim
---platform=linux/arm64 node:20-alpine
---platform=linux/arm64 mysql:8.0
---platform=linux/arm64 nginx:alpine
+#--platform=linux/arm64 python:3.11-slim
+#--platform=linux/arm64 node:20-alpine
+#--platform=linux/arm64 mysql:8.0
+#--platform=linux/arm64 nginx:alpine
+--platform=linux/arm64 postgres:16-alpine
