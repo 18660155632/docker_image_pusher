@@ -76,4 +76,10 @@
 #--platform=linux/arm64 nginx:alpine
 #--platform=linux/arm64 postgres:16-alpine
 #--platform=linux/arm64 jeffknupp/sandman2
-golang:1.16-alpine
+#golang:1.16-alpine
+--platform=linux/arm64 docker.io/clickhouse/clickhouse-server
+--platform=linux/arm64 docker.io/langfuse/langfuse-worker:3
+--platform=linux/arm64 docker.io/langfuse/langfuse:3
+--platform=linux/arm64 cgr.dev/chainguard/minio
+--platform=linux/arm64 docker.io/redis:7
+--platform=linux/arm64 docker.io/postgres:17
