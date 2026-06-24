@@ -5,84 +5,47 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #busybox:1.28$1
-#continuumio/anaconda3
-#ubuntu:22.04
-#ubuntu:20.04
-#nvidia/cuda:12.4.1-runtime-ubuntu22.04
-#nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
-#python:3.9-slim-bookworm
-#docker.io/kubernetesui/dashboard-api:1.10.1
-#docker.io/kubernetesui/dashboard-auth:1.2.2
-#docker.io/kubernetesui/dashboard-metrics-scraper:1.2.1
-#docker.io/kubernetesui/dashboard-web:1.6.0
-#kong:3.6
-#centos:centos7
-#mongo:6
-#redis:6.2.6
-#rancher/mirrored-pause:3.6
-#rancher/mirrored-coredns-coredns:1.10.1
-#rancher/local-path-provisioner:v0.0.30
-#intel/oneapi:latest
-#oven/bun:latest
-#golang:alpine
-#calciumion/new-api:latest
-#alpine
-#jiashiwen/redissyncer-dashboard:v1.0
-#jiashiwen/redissyncer-monitor:latest
-#jiashiwen/redissyncer:latest
-#redis:6.0
-#certbot/certbot
-#container-registry.oracle.com/database/free:latest
-#docker.elastic.co/elasticsearch/elasticsearch:8.14.3
-#docker.elastic.co/kibana/kibana:8.14.3
-#downloads.unstructured.io/unstructured-io/unstructured-api:latest
-#ghcr.io/chroma-core/chroma:0.5.20
-#langgenius/dify-api:1.1.1
-#langgenius/dify-plugin-daemon:0.0.6-local
-#langgenius/dify-sandbox:0.2.10
-#langgenius/dify-web:1.1.1
-#langgenius/qdrant:v1.7.3
-#milvusdb/milvus:v2.5.0-beta
-#minio/minio:RELEASE.2023-03-20T20-16-18Z
-#myscale/myscaledb:1.6.4
-#nginx:latest
-#opengauss/opengauss:7.0.0-RC1
-#opensearchproject/opensearch-dashboards:latest
-#opensearchproject/opensearch:latest
-#pgvector/pgvector:pg16
-#postgres:15-alpine
-#quay.io/coreos/etcd:v3.5.5
-#quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215
-#redis:6-alpine
-#semitechnologies/weaviate:1.19.0
-#tensorchord/pgvecto-rs:pg16-v0.3.0
-#ubuntu/squid:latest
-#nats-streaming:0.22.1
-#busybox:1.28
-#docker/whalesay:latest
-#docker.io/docker/whalesay:latest
-#ubuntu:14.04
-#docker.xuanyuan.me/guiji2025/heygem.ai-5090:latest
-#docker.xuanyuan.me/guiji2025/heygem.ai:latest
-#rancher/rancher-agent:v2.10.3
-#cluster-register
-#--platform=linux/arm64 apache/kafka:3.9.1
-#provectuslabs/kafka-ui
-#--platform=linux/arm64 moby/buildkit:buildx-stable-1
 
-#--platform=linux/arm64 python:3.11-slim
-#--platform=linux/arm64 node:20-alpine
-#--platform=linux/arm64 mysql:8.0
-#--platform=linux/arm64 nginx:alpine
-#--platform=linux/arm64 postgres:16-alpine
-#--platform=linux/arm64 jeffknupp/sandman2
-#golang:1.16-alpine
-#--platform=linux/arm64 docker.io/clickhouse/clickhouse-server
-
-
-#--platform=linux/arm64 docker.io/langfuse/langfuse-worker:3
-#--platform=linux/arm64 docker.io/langfuse/langfuse:3
-#--platform=linux/arm64 cgr.dev/chainguard/minio
-#--platform=linux/arm64 docker.io/redis:7
-#--platform=linux/arm64 docker.io/postgres:17
-rancher/rancher:v2.10.3
+registry.k8s.io/kube-apiserver:v1.34.0
+registry.k8s.io/kube-controller-manager:v1.34.0
+registry.k8s.io/kube-scheduler:v1.34.0
+registry.k8s.io/kube-proxy:v1.34.0
+registry.k8s.io/etcd:3.5.21-0
+registry.k8s.io/coredns/coredns:v1.12.0
+registry.k8s.io/pause:3.10
+quay.io/tigera/operator:v1.36.5
+quay.io/calico/apiserver:v3.27.0
+quay.io/calico/node:v3.27.0
+quay.io/calico/cni:v3.27.0
+quay.io/calico/kube-controllers:v3.27.0
+quay.io/calico/typha:v3.27.0
+quay.io/calico/pod2daemon-flexvol:v3.27.0
+quay.io/calico/node-driver-registrar:v3.27.0
+# Dex（OIDC IdP）
+ghcr.io/dexidp/dex:v2.45.0
+# oauth2-proxy
+quay.io/oauth2-proxy/oauth2-proxy:v7.14.3
+# Istio（CNI 模式）
+gcr.io/istio-release/install-cni:1.28.0
+gcr.io/istio-release/pilot:1.28.0
+gcr.io/istio-release/proxyv2:1.28.0
+# cert-manager
+quay.io/jetstack/cert-manager-cainjector:v1.19.4
+quay.io/jetstack/cert-manager-controller:v1.19.4
+quay.io/jetstack/cert-manager-webhook:v1.19.4
+# 共享辅助：kube-rbac-proxy（被多个组件用作监控代理，三个版本都在用）
+quay.io/brancz/kube-rbac-proxy:v0.8.0
+quay.io/brancz/kube-rbac-proxy:v0.13.1
+quay.io/brancz/kube-rbac-proxy:v0.18.0
+# metacontroller（Pipelines 用）
+ghcr.io/metacontroller/metacontroller:v4.11.22
+# JobSet（Trainer v2 依赖）
+registry.k8s.io/jobset/jobset:v0.10.1
+# SeaweedFS（Pipelines 默认 S3 制品存储）
+chrislusf/seaweedfs:4.00
+# MySQL（Katib / Pipelines 的数据库，两个版本分别被不同组件用）
+mysql:8.0
+mysql:8.4
+# 辅助镜像
+busybox:1.28
+docker.io/alpine/k8s:1.32.3
