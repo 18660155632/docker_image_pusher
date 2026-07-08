@@ -6,4 +6,5 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 #busybox:1.28$1
 
---platform=linux/amd64 python:3.12-slim
+#--platform=linux/amd64 python:3.12-slim
+registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
