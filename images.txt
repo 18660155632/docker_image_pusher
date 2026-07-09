@@ -8,4 +8,6 @@
 
 #--platform=linux/amd64 python:3.12-slim
 #registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
-gcr.io/istio-release/proxyv2:1.29.0
+#gcr.io/istio-release/proxyv2:1.29.0
+quay.io/argoproj/workflow-controller:v3.7.3
+quay.io/argoproj/argoexec:v3.7.3
