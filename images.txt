@@ -11,4 +11,6 @@
 #gcr.io/istio-release/proxyv2:1.29.0
 #quay.io/argoproj/workflow-controller:v3.7.3
 #quay.io/argoproj/argoexec:v3.7.3
-registry.k8s.io/nfd/node-feature-discovery:v0.18.3
+#registry.k8s.io/nfd/node-feature-discovery:v0.18.3
+
+ghcr.io/kubeflow/kfp-launcher:2.16.0
