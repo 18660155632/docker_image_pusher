@@ -15,4 +15,5 @@
 
 #ghcr.io/kubeflow/kfp-launcher:2.16.0
 #docker.io/library/python:3.10
-kserve/sklearnserver:v0.16.0
+#kserve/sklearnserver:v0.16.0
+thednp/cups-docker:epson-amd64-v1.0.0
